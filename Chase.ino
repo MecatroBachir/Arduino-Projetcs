@@ -1,4 +1,5 @@
-void setup() {
+
+void setup() {          // Defining mode : output or input
   pinMode(2, OUTPUT);
   pinMode(3, OUTPUT);
   pinMode(5, OUTPUT);
@@ -10,7 +11,7 @@ void setup() {
 
 }
 
-void loop() {
+void loop() {               // Switchin OFF all the leds
   delay(2000);
   digitalWrite(2, LOW);
   digitalWrite(3, LOW);
@@ -20,7 +21,7 @@ void loop() {
   digitalWrite(9, LOW);
   digitalWrite(10, LOW);
   digitalWrite(11, LOW);
-
+                          // Switchin ON all the leds on by one with 0.5 seconds time interval
   digitalWrite(2, HIGH);
   delay(500);
   digitalWrite(3, HIGH);
