@@ -24,4 +24,4 @@ void loop() {
   digitalWrite(pinYellow, LOW);
   digitalWrite(pinGreen, HIGH);  // Turning ON the green led
   delay(5000);
-}
+} 
