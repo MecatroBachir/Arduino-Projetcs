@@ -1,4 +1,4 @@
-int pinLed = 2 ;  // Defining the pin of the led
+int pinLed = 13 ;  // Defining the pin of the led
 void setup() { // Running one time
   pinMode(pinLed, OUTPUT);     // Defining the mode of the pin : output or input
  
