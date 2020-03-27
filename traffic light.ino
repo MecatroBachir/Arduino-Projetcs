@@ -1,7 +1,7 @@
                     // Defining pins
-int pinRed = 2 ;
-int pinYellow = 3 ;
-int pinGreen = 7 ;
+int pinRed = 11 ;
+int pinYellow = 12 ;
+int pinGreen = 13 ;
                   // Defining mode : Outut or Input
 void setup() {
   pinMode(pinRed, OUTPUT);
